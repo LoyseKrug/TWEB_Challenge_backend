@@ -1,0 +1,26 @@
+type Query {
+  movie(id: ID!): Movie
+  movies(offset: Int, limit: Int): [Movie]
+}
+
+type Mutation {
+  #example Mutations
+  create_movie(vote_count: Int, title: String, release_date:String, vote_average:Float): Movie
+}
+
+type Movie {
+  id: ID!
+  vote_count: Int
+  title: String
+  release_date: String
+  vote_average: Float
+  popularity: Float
+  poster_path: String
+  original_language: String
+  original_title: String
+  backdrop_path: String 
+  adult: Boolean 
+  overview: String
+  tmdb_id: Int 
+  genres: [String] 
+}

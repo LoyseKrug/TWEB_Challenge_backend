@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.12.1",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^4.0.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.7",
+    "nodemon": "^1.18.9"
+  }
+}
